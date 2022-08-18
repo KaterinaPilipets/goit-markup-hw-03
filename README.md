@@ -15,3 +15,19 @@
 «B16» Для побудови сіток використовується техніка, що описана у конспекті і відео-майстерні.
 
 «B17» У картках на сторінці Портфоліо є рамка (властивість border), але тільки у нижній частині картки.
+
+/_ .portfolio-filter li + li {
+margin-left: 8px;
+} _/
+/_ .portfolio-filter + .portfolio-galery {
+margin-top: 50;
+} _/
+
+/_ .btn-secondary {
+background-color: var(--color-bg-secondary);
+color: var(--color-nav-and-title);
+}
+.btn-primary {
+background-color: var(--color-accent);
+color: var(--color-text-theme-dark);
+} _/
