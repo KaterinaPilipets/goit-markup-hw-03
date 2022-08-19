@@ -336,24 +336,10 @@ body {
 .page-footer .contact {
   color: var(--color-contacts-footer);
 }
+.page-footer .coteiner {
+  display: flex;
+}
+.footer-first-column {
+  flex-basis: 231px;
+}
 /* --/footer--  */
-/* --help-- */
-/* p,
-h1,
-h2,
-h3,
-.page-nav-list,
-.logo,
-.contacts,
-.footer-address {
-  outline: 2px solid tomato;
-}
-li {
-  outline: 2px solid blueviolet;
-}
-.coteiner {
-  outline: 2px solid teal;
-}
-.section {
-  outline: 2px solid green;
-} */
